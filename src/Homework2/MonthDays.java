@@ -1,22 +1,17 @@
 package Homework2;
 
-import com.sun.org.apache.xpath.internal.SourceTree;
-
 import java.util.Scanner;
 
 /**
  * Created by User on 26/02/2017.
  */
-public class MonthDays
-{
-    public static void main(String[] args)
-    {
+public class MonthDays {
+    public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         System.out.print("\nEnter Month Name\t:");
-        String month=sc.next().toLowerCase();
-        switch (month)
-        {
-            case "january" :
+        String month = sc.next().toLowerCase();
+        switch (month) {
+            case "january":
                 System.out.println("\nThere is 31 days in January");
                 break;
             case "february":
